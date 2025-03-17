@@ -149,7 +149,7 @@ nav{
 
 .plan{
     flex: 1;
-    background-color: #4f7eb4;
+    background-color: #6ea7e9;
     border-radius: 10px;
     max-width: 475px;
     margin: 0 20px;
@@ -161,8 +161,37 @@ nav{
 
 .plan li{
     list-style: none;
-    color: #eee;
+    color: #fff;
     height: 70px;
     padding: 20px 15px;
 }
 
+.plan .products-price{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #2525a7;
+    color: #fff;
+    text-align: center;
+    line-height: 80px;
+    margin: 0 auto -50px;
+    font-size: 18px;
+    position: relative;
+}
+
+.plan .products-tittle{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #464545;
+    padding: 50px 0;
+}
+
+.plan .products-btn{
+    background-color: aqua;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 20px;
+    cursor: pointer;
+    border-radius: 0 0 10px 10px;
+}
