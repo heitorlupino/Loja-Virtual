@@ -70,3 +70,28 @@ nav{
     background-color: #5a66d8;
 }
 
+.main-banner{
+    background-image: url("../img/DALL·E\ 2025-03-16\ 23.35.25\ -\ A\ modern\ and\ clean\ digital\ shopping\ scene\ with\ a\ blue\ color\ theme.webp");
+    background-size: cover;
+    background-position: center;
+    padding: 10rem 0;
+}
+
+.main-banner h1,
+.main-banner p{
+    color: #fff;
+    text-shadow: 4px 3px 3px #000;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    left: 12%;
+    max-width: 1300px;
+}
+
+.main-banner h1{
+    font-size: 50px;
+}
+
+.main-banner p{
+    font-size: 34px;
+}
