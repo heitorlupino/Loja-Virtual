@@ -150,7 +150,7 @@ nav{
 
 .plan{
     flex: 1;
-    background-color: #bfbfbd;
+    background-color: #f4f4f4;
     border-radius: 10px;
     max-width: 475px;
     margin: 0 20px;
@@ -183,7 +183,7 @@ nav{
     font-size: 18px;
     position: relative;
     top: 5px;
-    border: 5px solid #bfbfbd;
+    border: 5px solid #cfcfcf;
 }
 
 .plan .products-tittle{
@@ -203,3 +203,54 @@ nav{
     cursor: pointer;
     border-radius: 0 0 10px 10px;
 }
+
+/* domain */
+.domain-container{
+    width: 100%;
+    padding: 5rem 0;
+    background-color: #b4b4b4;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.domain-container h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    color: #000;
+}
+
+.domain-container p{
+    font-size: 24px;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.domain-container input{
+    display: block;
+    border-radius: 10px;
+    border: none;
+    margin: 0 auto;
+}
+
+.domain-container input[type="text"]{
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.domain-container input[type="submit"]{
+    padding: 15px 30px;
+    margin-top: 20px;
+    font-size: 24px;
+    background-color: #2525a7;
+    color: #fff;
+    opacity: .8;
+    cursor: pointer;
+}
+
+.domain-container input[type="submit"]:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+
