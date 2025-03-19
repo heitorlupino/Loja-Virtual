@@ -127,7 +127,7 @@ nav{
 
 /* produtos */
 .products-container{
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
     text-align: center;
 }
 
@@ -235,7 +235,7 @@ nav{
     padding: 5rem 0;
     background-color: #b4b4b4;
     text-align: center;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 
 .domain-container h2{
@@ -267,7 +267,7 @@ nav{
 .domain-container input[type="submit"]{
     padding: 15px 30px;
     margin-top: 20px;
-    font-size: 24px;
+    font-size: 18px;
     background-color: #2525a7;
     color: #fff;
     opacity: .8;
@@ -282,7 +282,7 @@ nav{
 /* contact */
 .contact-container{
     text-align: center;
-    padding: 2rem 0 2.5rem 0;
+    padding: 1rem 0 2.5rem 0;
 }
 
 .contact-container h2{
@@ -388,6 +388,7 @@ footer{
 
 /* Para telas menores que 576px */
 @media screen and (max-width: 576px) {
+
     .plan {
         max-width: 60%;
     }
@@ -399,19 +400,56 @@ footer{
         padding-top:  0;
         margin-bottom: -30px;
     }
-
+    
     .plan .products-tittle {
         font-size: 14px;
         padding: 50px 10px 10px;
     }
-
+    
     .plan .products-text_maior,
     .plan .products-text_menor {
         font-size: 14px;
     }
-
+    
     .plan .products-btn {
         font-size: 18px;
         padding: 12px 0;
+    }
+
+    .domain-container h2{
+        font-size: 26px;
+        padding: 0 20px;
+    }
+    
+    .domain-container p{
+        font-size: 18px;
+        padding: 0 20px;
+    }
+    
+    .domain-container input[type="text"]{
+        width: 60%;
+        font-size: 16px;
+        padding: 15px 10px;
+    }
+    
+    .domain-container input[type="submit"]{
+        width: 40%;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .contact-container h2{
+        font-size: 26px;
+        padding: 0 20px;
+    }
+
+    .contact-container p{
+        font-size: 18px;
+        padding: 0 30px;
+    }
+
+    .contact-container input,
+    .contact-container textarea{
+        width: 70%;
     }
 }
