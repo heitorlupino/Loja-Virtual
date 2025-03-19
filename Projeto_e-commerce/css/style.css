@@ -91,7 +91,7 @@ nav{
 
 .main-banner p{
     font-size: 34px;
-    /* padding: 0 20rem; */
+    padding: 0 30px;
 }
 
 /* serviços */
@@ -155,7 +155,7 @@ nav{
     border-radius: 10px;
     max-width: 475px;
     margin: 0 20px;
-    height: 450px;
+    height: 480px;
 }
 
 .plan ul{
@@ -165,8 +165,6 @@ nav{
 .plan li{
     list-style: none;
     color: #fff;
-    /* height: 80px; */
-    
 }
 
 .plan .products-text_maior{
@@ -202,22 +200,14 @@ nav{
 .plan .products-tittle{
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     background-color: #374c8c;
-    padding: 65px 20px 10px;
+    padding: 65px 10px 10px;
     border-radius: 10px 10px 0 0;
 }
 
 .plan #products-tittle_menor{
     padding-bottom: 30px;
-}
-
-.plan #li_menor_2{
-    padding-top: 20px;
-}
-
-.plan #li_menor_3{
-    padding-top: 20px;
 }
 
 .plan .products-btn{
@@ -292,12 +282,12 @@ nav{
 }
 
 .contact-container h2{
-    font-size: 36px;
+    font-size: 34px;
     margin-bottom: 15px;
 }
 
 .contact-container p{
-    font-size: 24px;
+    font-size: 18px;
     margin-bottom: 30px;
 }
 
@@ -307,7 +297,7 @@ nav{
     width: 475px;
     padding: 10px 15px;
     margin: 15px auto;
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 4px;
 }
 
