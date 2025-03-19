@@ -388,6 +388,49 @@ footer{
 
 /* Para telas menores que 576px */
 @media screen and (max-width: 576px) {
+    .logo{
+        width: 60px;
+        padding-top: 20px;
+    }
+
+    .navbar-container{
+        padding: 0 0.5rem;
+    }
+
+    .navbar-items li{
+        font-size: 14px;
+        margin-left: 12px;
+    }
+
+    .default-btn{
+        padding: 10px 15px;
+        margin-right: 10px;
+    }
+
+    .main-banner{
+        height: 300px;
+    }
+
+    .main-banner h1,
+    .main-banner p{
+        position: relative;
+        bottom: 80px;
+    }
+
+    .main-banner h1{
+        font-size: 32px;
+        padding: 0 20px;
+        margin-bottom: 15px;
+    }
+
+    .main-banner p{
+        font-size: 18px;
+        padding: 0 2rem;
+    }
+
+    .services-container ul{
+        flex-direction: column;
+    }
 
     .plan {
         max-width: 60%;
