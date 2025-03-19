@@ -220,6 +220,10 @@ nav{
     border-radius: 0 0 10px 10px;
 }
 
+.plan #li_2_menor_3{
+    padding-top: 20px;
+}
+
 .plan #maior_btn{
     position: relative;
     bottom: 3px;
